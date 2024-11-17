@@ -22,11 +22,11 @@ const LoginButton: React.FC<LoginButtonProps> = ({ provider, onClick }) => {
     const getButtonColor = () =>{
         switch (provider){
             case "kakao":
-                return 'yellow.400';
+                return 'yellow';
             case "google":
-                return 'blue.500';
+                return 'blue';
             default :
-                return 'teal.500';
+                return 'teal';
         }
     }
 
