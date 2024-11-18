@@ -11,6 +11,7 @@ const LoginButton: React.FC<LoginButtonProps> = ({ provider, onClick }) => {
     const getButtonText = () =>{
         switch (provider) {
             case "kakao":
+                console.log("test");
                 return "카카오 로그인";
             case "google":
                 return "구글 로그인";
